@@ -8,7 +8,7 @@ C++ repostory that transforms plaintext strings into encrypted bytecode, prevent
 🛡️ Multi-Layer Security - 5-round encryption process with AES S-Box
 🔑 Unique Keys - Individual 256-bit keys per string
 ⚡ Simple Integration - Single header, no dependencies
-🎯 Easy Usage - Just wrap strings with CLT("text")
+🎯 Still a lot of things to improve, reminder this is a basic base to start off!
 
 
 # How It Works
