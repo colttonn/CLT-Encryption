@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-#include "clt.h"
+#include "CLT.h"
 
 int main() {
     std::cout << "Not Encrypted Stringn";
