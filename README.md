@@ -4,16 +4,8 @@ C++ repostory that transforms plaintext strings into encrypted bytecode, prevent
 
 # Key Features
 
-🔐 Compile-Time Encryption - Zero runtime performance impact
-🛡️ Multi-Layer Security - 5-round encryption process with AES S-Box
-🔑 Unique Keys - Individual 256-bit keys per string
-⚡ Simple Integration - Single header, no dependencies
-🎯 Still a lot of things to improve, reminder this is a basic base to start off!
+ Compilation Time Encryption
+ Multi Layer Security, 5-round encryption process with AES S-Box
+ Unique Keys, Individual 256-bit keys per string
+ Still a lot of things to improve, reminder this is a basic base to start off!
 
-
-# How It Works
-
-**Compile-Time Processing: Strings are encrypted during compilation using file path, line number, and content as entropy sources
-Multi-Round Encryption: Each byte undergoes XOR operations, AES S-Box substitution, and bit rotation
-Runtime Decryption: Encrypted data is seamlessly decrypted when accessed
-Memory Safety: Thread-local storage ensures safe concurrent access**
