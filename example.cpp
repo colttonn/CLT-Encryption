@@ -5,8 +5,6 @@
 int main() {
     std::cout << "Not Encrypted String" << std::endl;
     std::cout << CLT("Encrypted String!") << std::endl;
-
-    std::cout << CLT_STR("This is a much longer string that demonstrates the encryption capabilities of our system. It should work perfectly with any length of text.") << std::endl;
     
     return 0;
 }
