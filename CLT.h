@@ -154,4 +154,3 @@ namespace CLTEncryption {
 }
 
 #define CLT(str) (CLTEncryption::EncryptedString<CLTEncryption::const_strlen(str) + 16>(str, static_cast<uint64_t>(__LINE__)).c_str())
-#define CLT_STR(str) (CLTEncryption::EncryptedString<CLTEncryption::const_strlen(str) + 16>(str, static_cast<uint64_t>(__LINE__)).decrypt())
